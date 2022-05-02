@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  color: rgb(24, 25, 26);
+
+}
+
+.header {
+  width: 100vw;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+main h1 {
+  color:aliceblue;
+  
+}
+
+main button {
+  height: 50px;
+  width: 130px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  border-style: none;
+  background-color: rgba(218, 219, 240, 0.801);
+  color: rgb(56, 53, 53);
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  justify-content: center;
+}
+
+main button:hover {
+cursor: pointer;  
+box-shadow: 4px 3px 8px 4px rgb(235, 235, 130);
+}
+
+.players_table {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  background-color: rgb(210, 229, 240);
+  margin-top: 10px;
+
+}
+
+.players {
+  width:220px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.players h3 {
+margin: 1px 4px;
+font-family: 'Oswald', sans-serif;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(210, 229, 240);
+  height: 120px;
+  color: rgb(18, 22, 22);
+  
+ 
+}
+
+.team p {
+  width: auto;
+  
+  margin: 0;
+  font-family: 'Libre Bodoni', serif;
+}
+img {
+  width: 120px;
+  height: auto;
+  margin-top: 5px;
+}
