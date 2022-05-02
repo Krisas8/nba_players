@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nba_players/static/css/main.b71df10a.css",
+    "main.js": "/nba_players/static/js/main.aebaaa9d.js",
+    "index.html": "/nba_players/index.html",
+    "main.b71df10a.css.map": "/nba_players/static/css/main.b71df10a.css.map",
+    "main.aebaaa9d.js.map": "/nba_players/static/js/main.aebaaa9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b71df10a.css",
+    "static/js/main.aebaaa9d.js"
+  ]
+}
